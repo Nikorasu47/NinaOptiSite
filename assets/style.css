@@ -124,6 +124,7 @@ body {
   gap: 0.5em;
   margin-bottom: 2em;
   flex-wrap: wrap;
+  list-style-type: none;
 }
 .tags-bar .nav-item {
   margin: 0;
@@ -144,8 +145,8 @@ body {
 .tags-bar .nav-link.active,
 .tags-bar .nav-link.active-tag {
   color: #fff;
-  background-color: #BEB45A;
-  border-color: #BEB45A;
+  background-color: #5B5624;
+  border-color: #5B5624;
 }
 
 /* Grille galerie 3 colonnes fixes, toujours */
@@ -280,7 +281,7 @@ body {
   height: 14px;
   border-radius: 50%;
   border: none;
-  background: #BEB45A;
+  background: whitesmoke;
   opacity: 0.5;
   cursor: pointer;
   transition: opacity 0.2s;
@@ -340,7 +341,7 @@ body {
   z-index: 0;
 }
 #services .container {
-  justify-content: space-between;
+  justify-content: space-around;
   display: flex;
   padding: 2em 0;
 }
@@ -419,7 +420,7 @@ form textarea {
   font-size: 1.2em;
 }
 input[type="submit"] {
-  background-color: #BEB45A;
+  background-color: #5B5624;
   padding: .5em 1em;
   border: none;
   color: #fff;
@@ -449,10 +450,7 @@ input[type="submit"] {
   .carousel-item { height: 40vw; min-height: 200px; }
 }
 @media all and (max-width: 900px) {
-  .item-column {
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
+ 
   .carousel-item { height: 30vw; min-height: 150px; }
 }
 @media all and (max-width: 650px) {
@@ -465,9 +463,6 @@ input[type="submit"] {
   #about, #contact { padding-inline: 2em; padding-block: 2em; }
   form { width: 100%; }
   .picture { width: 80%; }
-  .item-column {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
+  
   .carousel-item { height: 40vw; min-height: 120px; }
 }

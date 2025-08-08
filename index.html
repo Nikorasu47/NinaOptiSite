@@ -15,14 +15,33 @@
       href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
       rel="stylesheet"
     />
-   
-    <link
-      rel="stylesheet"
-      href="./assets/style.css" 
-    />
-    
 
-   
+    <link rel="stylesheet" href="./assets/style.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Photographer",
+        "name": "Nina Carducci",
+        "image": "https://github.com/Nikorasu47/NinaOptiSite/assets/images/nina.webp",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "68 avenue Alsace-Lorraine",
+          "addressLocality": "Bordeaux",
+          "postalCode": "33200",
+          "addressRegion": "Nouvelle-Aquitaine",
+          "addressCountry": "FR"
+        },
+        "telephone": "+33 5 56 67 78 89",
+        "email": "contact@ninacarducci.fr",
+        "url": "https://github.com/Nikorasu47/NinaOptiSite",
+        "areaServed": "Île-de-France",
+        "priceRange": "€€",
+        "openingHours": "Mo-Fr 10:00-19:00",
+        "sameAs": ["https://www.instagram.com/ninacarducci.photo/?hl=fr"]
+      }
+    </script>
+
     <script src="./assets/scripts.js" defer></script>
   </head>
   <body>
@@ -154,7 +173,7 @@
     <section id="gallery" aria-label="Galerie photo">
       <h2 class="title">Portfolio</h2>
       <div class="container py-3">
-        <div class="gallery" >
+        <div class="gallery">
           <img
             data-gallery-tag="Concert"
             class="gallery-item"
@@ -278,6 +297,9 @@
     </blockquote>
 
     <section id="contact" aria-label="Formulaire de contact">
+      <h2>Contacter-moi au</h2>
+      <p class="phone">05 56 67 78 89</p>
+      <p>Je réponds au téléphone du lundi au vendredi de 10h à 19h</p>
       <div class="container">
         <div class="form-container">
           <h2>Une question ? Une demande de devis ?</h2>
